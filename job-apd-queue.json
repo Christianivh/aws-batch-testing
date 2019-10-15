@@ -1,0 +1,11 @@
+{
+  "jobQueueName": "batch-apd-queue",
+  "state": "ENABLED",
+  "priority": 100,
+  "computeEnvironmentOrder": [
+    {
+      "order": 0,
+      "computeEnvironment": "batch-apd-env"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "computeEnvironmentName": "batch-apd-env",
+  "type": "MANAGED",
+  "state": "ENABLED",
+  "computeResources": {
+    "type": "EC2",
+    "minvCpus": 0,
+    "maxvCpus": 16,
+    "desiredvCpus": 8,
+    "instanceTypes": [
+      "r4.2xlarge",
+      "r5a.2xlarge",
+      "r5.2xlarge",
+      "r4.4xlarge",
+      "r5a.4xlarge",
+      "r5.4xlarge"
+    ],
+    "subnets": [
+      "subnet-22449a45",
+      "subnet-1c167456",
+      "subnet-f509d6a9",
+      "subnet-af6ef5a0",
+      "subnet-b324fd9d",
+      "subnet-fa8a65c4"
+    ],
+    "securityGroupIds": [
+      "sg-ccbc1387"
+    ],
+    "ec2KeyPair": "belcorp-demo",
+    "instanceRole": "ecsInstanceRole",
+    "tags": {
+      "Direccion": "TRAD",
+      "Entorno": "QAS",
+      "Grupo": "Analytics-APD",
+      "ServerRol": "Batch-Job-environment",
+      "Tipo": "Proyecto",
+      "Descripcion": "Batch-APD-Model"
+    }
+  },
+  "serviceRole": "arn:aws:iam::639556434474:role/service-role/AWSBatchServiceRole"
+}

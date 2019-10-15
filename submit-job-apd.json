@@ -1,0 +1,5 @@
+{
+  "jobName": "batch-apd-job",
+  "jobQueue": "batch-apd-queue",
+  "jobDefinition": "batch-apd-def:2"
+}
