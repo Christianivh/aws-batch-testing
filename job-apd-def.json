@@ -2,11 +2,11 @@
     "jobDefinitionName": "batch-apd-def",
     "type": "container",
     "containerProperties": {
-        "image": "639556434474.dkr.ecr.us-east-1.amazonaws.com/analytics-apd-model-batch:201901",
+        "image": "6395XXXX.dkr.ecr.us-east-1.amazonaws.com/analytics-apd-model-batch:201901",
         "vcpus": 8,
         "memory": 65536,
         "command": ["launch_APD_modelos"],
-        "jobRoleArn": "arn:aws:iam::639556434474:role/ecsTaskExecutionRole",
+        "jobRoleArn": "arn:aws:iam::6395XXXX:role/ecsTaskExecutionRole",
         "volumes":[],
         "environment": [
             {
